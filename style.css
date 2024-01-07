@@ -127,6 +127,7 @@ header {
     background-color: rgba(207, 189, 189, 0.242);
     color: white;
     margin-top: 40px;
+    border: none;
 }
 
 .secondary-banner-img img {
