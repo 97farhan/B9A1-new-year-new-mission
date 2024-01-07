@@ -22,7 +22,7 @@ header {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    
+
 }
 
 .banner-big-title {
@@ -30,14 +30,52 @@ header {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    
+
     text-align: center;
     /* 131.944% */
 }
-.banner-section .banner-content-container{
-   width: 600px;
-   margin: auto;
-   padding-top: 170px;
+
+.banner-section .banner-content-container {
+    width: 600px;
+    margin: auto;
+    padding-top: 170px;
 
 }
+
 /* main section styles */
+.off-section {
+    font-family: 'Inter', sans-serif;
+}
+
+.off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+
+.off-title-one {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.off-title-two {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.off-section-img-conteiner img{
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
