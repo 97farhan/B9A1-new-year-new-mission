@@ -287,15 +287,6 @@ header {
     /* 160% */
 }
 
-.discount-section {
-    margin: 50px 110px;
-    border-radius: 8px;
-
-
-
-}
-
-/* discount section styles */
 
 /* portfolio section styles */
 .portfolio-section {
@@ -384,8 +375,8 @@ header {
     height: 72px;
     background: #FFF;
     border: none;
-    margin-left: 300px;
-    padding-left: 20px;
+    padding-left: 10px;
+    
 }
 
 .subscribe-btn {
@@ -400,6 +391,12 @@ header {
     font-weight: 600;
     border: none;
 
+}
+.input-field{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 /* footer section styles */
