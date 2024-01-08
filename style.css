@@ -379,13 +379,13 @@ header {
 
 }
 
-.subscribe-section input{
+.subscribe-section input {
     width: 438px;
     height: 72px;
     background: #FFF;
     border: none;
-    margin-left: 300px; 
-    padding-left: 20px; 
+    margin-left: 300px;
+    padding-left: 20px;
 }
 
 .subscribe-btn {
@@ -395,10 +395,63 @@ header {
     background: #F00;
     flex-shrink: 0;
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+
     font-size: 20px;
     font-weight: 600;
     border: none;
+
+}
+
+/* footer section styles */
+footer {
+    width: 100%;
+    height: 600px;
+    background: #070211;
+}
+
+
+
+footer .upper-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    display: flex;
+
+}
+
+.footer-clm-right .line img {
+    margin-right: 18px;
     
 }
 
+.upper-part {
+    padding: 100px 100px 30px 100px;
+}
+
+.footer-content {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    
+}
+#upper-border{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    
+}
+.icon-section{
+    display: flex;
+    justify-content: center;
+}
+.icon-section a{
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+.lower-part{
+    padding: 50px 100px 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
