@@ -298,9 +298,10 @@ header {
 /* discount section styles */
 
 /* portfolio section styles */
-.portfolio-section{
+.portfolio-section {
     margin: 50px 110px;
 }
+
 .portfolio-title {
     color: #F00;
     font-family: 'Inter', sans-serif;
@@ -327,13 +328,77 @@ header {
     margin-bottom: 50px;
     /* 160% */
 }
-.img-box img{
+
+.img-box img {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 30%;
 }
-.img-box img:hover{
+
+.img-box img:hover {
     border: 1px solid black;
 }
 
+/* subscribe section added */
+.subscribe-section {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 50px 110px;
+}
+
+.subscribe-section img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.subscribe {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+
+
+}
+
+.subscribe-section input{
+    width: 438px;
+    height: 72px;
+    background: #FFF;
+    border: none;
+    margin-left: 300px; 
+    padding-left: 20px; 
+}
+
+.subscribe-btn {
+    height: 72px;
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    
+}
 
